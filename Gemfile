@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+#add votable
+gem 'acts_as_votable', '~> 0.10.0'
 
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

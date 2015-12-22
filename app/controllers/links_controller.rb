@@ -65,6 +65,18 @@ class LinksController < ApplicationController
     end
   end
 
+  def like
+    @link = Link.find(params[:id])
+    @link.like_by current_user
+    redirect_to :back
+  end
+
+  def dislike
+    @link = Link.find(params[:id])
+    @link.dislike_by current_user
+    redirect_to :back
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_link
