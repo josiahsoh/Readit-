@@ -4,6 +4,8 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 #add votable
 gem 'acts_as_votable', '~> 0.10.0'
 
+gem 'simple_form', '~> 3.0.2'
+
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
